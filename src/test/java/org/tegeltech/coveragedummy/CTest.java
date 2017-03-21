@@ -22,4 +22,11 @@ public class CTest {
         assertThat(result, is(false));
     }
 
+    @Test
+    public void isItStillTrue() throws Exception {
+        boolean result = c.isItTrue();
+
+        assertThat(result, is(false));
+    }
+
 }

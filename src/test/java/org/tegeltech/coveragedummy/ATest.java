@@ -18,7 +18,7 @@ public class ATest {
     @Test
     public void sayHello() throws Exception {
         String result = a.sayHello("John");
-        assertThat(result, is("Hello John"));
+        assertThat(result, is("Hello there John"));
     }
 
 }

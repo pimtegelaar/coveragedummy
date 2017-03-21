@@ -30,6 +30,7 @@
                         <param>org.tegeltech.coveragedummy*</param>
                     </targetTests>
                     <verbose>true</verbose>
+                    <failWhenNoMutations>false</failWhenNoMutations>
                 </configuration>
             </plugin>
         </plugins>

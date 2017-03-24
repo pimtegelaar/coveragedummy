@@ -8,6 +8,7 @@ import static org.junit.Assert.assertThat;
 
 public class CTest {
 
+    // C
     private C c;
 
     @Before

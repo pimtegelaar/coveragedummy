@@ -23,6 +23,7 @@
                 <artifactId>pitest-maven</artifactId>
                 <version>1.1.11-SNAPSHOT</version>
                 <configuration>
+		    <reportsDirectory>${project.build.directory}/../../mamamia</reportsDirectory>
                     <targetClasses>
                         <param>org.tegeltech.coveragedummy*</param>
                     </targetClasses>
